@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSMapView">
+            <connections>
+                <outlet property="centerButton" destination="cnc-Xq-nK2" id="nbq-9m-zdM"/>
+                <outlet property="mapTypeButton" destination="C1A-ak-A3t" id="iBM-bp-BoE"/>
+                <outlet property="mapView" destination="VGK-5f-IzN" id="vF4-Op-IS6"/>
+                <outlet property="panRecognizer" destination="Spo-yu-BF4" id="yrb-Ip-Qbt"/>
+                <outlet property="pinchRecognizer" destination="4lK-Zn-BWB" id="BW8-LY-ds8"/>
+                <outlet property="showAllButton" destination="IEm-og-rb1" id="ExL-C3-2NF"/>
+                <outlet property="view" destination="iN0-l3-epB" id="ssd-Ia-kNT"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="VGK-5f-IzN">
+                    <gestureRecognizers/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="LOH-iE-1yt"/>
+                        <outletCollection property="gestureRecognizers" destination="Spo-yu-BF4" appends="YES" id="ubo-aa-ojD"/>
+                        <outletCollection property="gestureRecognizers" destination="4lK-Zn-BWB" appends="YES" id="0ko-Gc-G66"/>
+                    </connections>
+                </mapView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cnc-Xq-nK2">
+                    <color key="backgroundColor" red="0.24915036469999999" green="0.24915036469999999" blue="0.24915036469999999" alpha="0.28727712806748468" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="cnc-Xq-nK2" secondAttribute="height" multiplier="1:1" id="YZO-R1-Y7Y"/>
+                    </constraints>
+                    <color key="tintColor" red="0.52549019607843139" green="0.14901960784313725" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="near me">
+                        <color key="titleColor" red="0.93725490570000003" green="0.93725490570000003" blue="0.95686274770000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="didPressCenter:" destination="-1" eventType="touchUpInside" id="JgP-rV-Flc"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="C1A-ak-A3t">
+                    <color key="backgroundColor" red="0.24915036469999999" green="0.24915036469999999" blue="0.24915036469999999" alpha="0.2872771281" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" secondItem="C1A-ak-A3t" secondAttribute="height" multiplier="1:1" id="0fk-L4-tPq"/>
+                    </constraints>
+                    <color key="tintColor" red="0.52549019610000003" green="0.14901960780000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <state key="normal" image="map"/>
+                    <connections>
+                        <action selector="didPressMapTypeButton:" destination="-1" eventType="touchUpInside" id="hCS-Vi-Bbr"/>
+                    </connections>
+                </button>
+                <button hidden="YES" opaque="NO" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IEm-og-rb1">
+                    <frame key="frameInset" minX="98" minY="20" width="206" height="47"/>
+                    <color key="backgroundColor" red="0.24915036469999999" green="0.24915036469999999" blue="0.24915036469999999" alpha="0.2872771281" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    <state key="normal" title="Show All"/>
+                    <connections>
+                        <action selector="didPressShowAllButton:" destination="-1" eventType="touchUpInside" id="MxM-2B-qNM"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="IEm-og-rb1" firstAttribute="height" secondItem="C1A-ak-A3t" secondAttribute="height" id="D7n-Rr-pJz"/>
+                <constraint firstAttribute="trailing" secondItem="VGK-5f-IzN" secondAttribute="trailing" id="JJE-es-NmF"/>
+                <constraint firstItem="VGK-5f-IzN" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="MOb-Ua-2DT"/>
+                <constraint firstItem="C1A-ak-A3t" firstAttribute="leading" secondItem="IEm-og-rb1" secondAttribute="trailing" constant="8" id="NAM-vw-L2n"/>
+                <constraint firstItem="C1A-ak-A3t" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="U7h-nm-Jgp"/>
+                <constraint firstAttribute="bottom" secondItem="VGK-5f-IzN" secondAttribute="bottom" id="eaS-IJ-e2H"/>
+                <constraint firstAttribute="trailing" secondItem="cnc-Xq-nK2" secondAttribute="trailing" constant="16" id="fN4-1o-4wh"/>
+                <constraint firstItem="VGK-5f-IzN" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="gyx-G7-XmN"/>
+                <constraint firstItem="C1A-ak-A3t" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:8" id="hto-mq-kR7"/>
+                <constraint firstItem="IEm-og-rb1" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="20" id="mJp-t7-K4w"/>
+                <constraint firstAttribute="bottom" secondItem="cnc-Xq-nK2" secondAttribute="bottom" constant="16" id="mUC-AM-Mse"/>
+                <constraint firstAttribute="trailing" secondItem="C1A-ak-A3t" secondAttribute="trailing" constant="16" id="phF-rw-aKF"/>
+                <constraint firstItem="cnc-Xq-nK2" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" multiplier="1:8" id="raa-Wf-tzC"/>
+                <constraint firstItem="IEm-og-rb1" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="w76-iR-P8x"/>
+            </constraints>
+            <point key="canvasLocation" x="26.5" y="51.5"/>
+        </view>
+        <panGestureRecognizer cancelsTouchesInView="NO" minimumNumberOfTouches="1" id="Spo-yu-BF4">
+            <connections>
+                <action selector="didPanMap:" destination="-1" id="XPu-jV-sCv"/>
+            </connections>
+        </panGestureRecognizer>
+        <pinchGestureRecognizer cancelsTouchesInView="NO" id="4lK-Zn-BWB">
+            <connections>
+                <action selector="didPinchMap:" destination="-1" id="B3S-G2-Aez"/>
+            </connections>
+        </pinchGestureRecognizer>
+    </objects>
+    <resources>
+        <image name="map" width="50" height="50"/>
+        <image name="near me" width="72" height="72"/>
+    </resources>
+</document>

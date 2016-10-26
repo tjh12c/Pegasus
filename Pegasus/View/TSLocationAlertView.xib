@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSLocationAlertView">
+            <connections>
+                <outlet property="bottomLabel" destination="Cfa-f1-RM0" id="qzg-90-YIu"/>
+                <outlet property="topLabel" destination="3Eg-hj-Qyn" id="pNB-Ie-K6q"/>
+                <outlet property="view" destination="iN0-l3-epB" id="7ai-il-xO2"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="70"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Some features require location services!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="3Eg-hj-Qyn">
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <color key="textColor" red="0.90196078430000004" green="0.92156862750000001" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="249" verticalCompressionResistancePriority="1000" text="Tap to enable!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="Cfa-f1-RM0">
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                    <color key="textColor" red="0.90196078430000004" green="0.92156862750000001" blue="0.87843137250000003" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.35873993479999999" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Cfa-f1-RM0" secondAttribute="bottom" constant="8" id="EFy-15-wKi"/>
+                <constraint firstAttribute="trailing" secondItem="Cfa-f1-RM0" secondAttribute="trailing" constant="8" id="JvZ-gr-Cob"/>
+                <constraint firstItem="Cfa-f1-RM0" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="LxW-6t-Qlr"/>
+                <constraint firstItem="3Eg-hj-Qyn" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Z1Q-IL-P0V"/>
+                <constraint firstItem="3Eg-hj-Qyn" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="hTW-1i-3Lv"/>
+                <constraint firstAttribute="trailing" secondItem="3Eg-hj-Qyn" secondAttribute="trailing" constant="8" id="pHH-Be-f09"/>
+                <constraint firstItem="Cfa-f1-RM0" firstAttribute="top" secondItem="3Eg-hj-Qyn" secondAttribute="bottom" constant="8" id="sSZ-Vl-Tqn"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="239.5" y="67"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TSCalloutView">
+            <connections>
+                <outlet property="addressLabel" destination="FPJ-WJ-hHy" id="EPi-Gi-1mT"/>
+                <outlet property="distanceLabel" destination="4QW-Xj-jlZ" id="piO-Lg-X1L"/>
+                <outlet property="nameLabel" destination="ZyU-T8-wwU" id="rJx-OG-fao"/>
+                <outlet property="view" destination="iN0-l3-epB" id="tnK-tq-TSq"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="200" height="100"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="744" text="Name of Truck Stop" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="ZyU-T8-wwU">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="21" id="7Ta-YP-aoS"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="14"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="1000" text="Distance away" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="4QW-Xj-jlZ">
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="243" verticalCompressionResistancePriority="756" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="FPJ-WJ-hHy">
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="4QW-Xj-jlZ" secondAttribute="trailing" constant="8" id="8IB-df-APB"/>
+                <constraint firstItem="4QW-Xj-jlZ" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="9b8-KJ-ugg"/>
+                <constraint firstItem="ZyU-T8-wwU" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="GUM-So-dfQ"/>
+                <constraint firstAttribute="bottom" secondItem="FPJ-WJ-hHy" secondAttribute="bottom" constant="8" id="GiJ-Fw-nhE"/>
+                <constraint firstItem="FPJ-WJ-hHy" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="Nez-Bm-kl1"/>
+                <constraint firstAttribute="trailing" secondItem="ZyU-T8-wwU" secondAttribute="trailing" constant="8" id="OIO-Y4-jHn"/>
+                <constraint firstAttribute="trailing" secondItem="FPJ-WJ-hHy" secondAttribute="trailing" constant="8" id="WlB-6U-jfx"/>
+                <constraint firstItem="4QW-Xj-jlZ" firstAttribute="top" secondItem="ZyU-T8-wwU" secondAttribute="bottom" constant="4" id="mcY-4r-cMC"/>
+                <constraint firstItem="FPJ-WJ-hHy" firstAttribute="top" secondItem="4QW-Xj-jlZ" secondAttribute="bottom" constant="4" id="oCi-26-esA"/>
+                <constraint firstItem="ZyU-T8-wwU" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="v3X-C7-3IF"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-295" y="-44"/>
+        </view>
+    </objects>
+</document>

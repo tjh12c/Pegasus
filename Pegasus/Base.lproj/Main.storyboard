@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11201" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2SJ-bd-5Gn" customClass="TSSearchView">
+                                <frame key="frameInset" minY="28" width="375" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="AFU-tm-IXH"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XCq-T8-4Wu" customClass="TSMapView">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view hidden="YES" contentMode="scaleToFill" verticalCompressionResistancePriority="1000" translatesAutoresizingMaskIntoConstraints="NO" id="TC9-Jd-vcP" customClass="TSLocationAlertView">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="dwY-7o-gSi"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="0.52549019610000003" green="0.14901960780000001" blue="0.20000000000000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="XCq-T8-4Wu" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="7Sg-cP-dl7"/>
+                            <constraint firstAttribute="trailing" secondItem="TC9-Jd-vcP" secondAttribute="trailing" id="Flv-cC-Iaw"/>
+                            <constraint firstItem="TC9-Jd-vcP" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Hpp-wk-k6H"/>
+                            <constraint firstAttribute="trailing" secondItem="XCq-T8-4Wu" secondAttribute="trailing" id="L4D-MO-A25"/>
+                            <constraint firstItem="2SJ-bd-5Gn" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MQI-Iz-QFy"/>
+                            <constraint firstAttribute="trailing" secondItem="2SJ-bd-5Gn" secondAttribute="trailing" id="Oin-d8-qQk"/>
+                            <constraint firstItem="2SJ-bd-5Gn" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="bul-3l-RUj"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XCq-T8-4Wu" secondAttribute="bottom" id="dN3-eU-0S3"/>
+                            <constraint firstItem="XCq-T8-4Wu" firstAttribute="top" secondItem="2SJ-bd-5Gn" secondAttribute="bottom" constant="8" id="drU-96-Bw7"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="TC9-Jd-vcP" secondAttribute="bottom" id="oLL-TG-f7O"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="footerView" destination="TC9-Jd-vcP" id="xXe-bK-G9x"/>
+                        <outlet property="mapView" destination="XCq-T8-4Wu" id="cAf-YQ-AhT"/>
+                        <outlet property="searchView" destination="2SJ-bd-5Gn" id="FL5-Rw-jPB"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="24.800000000000001" y="35.532233883058474"/>
+        </scene>
+    </scenes>
+</document>

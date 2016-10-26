@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		61670A741DBF55A000CB70F0 /* TSPointAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = 61670A731DBF55A000CB70F0 /* TSPointAnnotation.m */; };
+		61670A781DBF561700CB70F0 /* TSAnnotationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 61670A771DBF561700CB70F0 /* TSAnnotationView.m */; };
+		617F65341DC0EF910033B025 /* TSCalloutView.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F65331DC0EF910033B025 /* TSCalloutView.m */; };
+		617F65361DC0EF9C0033B025 /* TSCalloutView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 617F65351DC0EF9C0033B025 /* TSCalloutView.xib */; };
+		618295051DBEB79100650BCF /* TSMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618295041DBEB79100650BCF /* TSMapView.xib */; };
+		618295091DBEB7FF00650BCF /* TSMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618295081DBEB7FF00650BCF /* TSMapView.m */; };
+		6182950F1DBEC17900650BCF /* TSSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 6182950E1DBEC17900650BCF /* TSSearchView.m */; };
+		618295121DBEC19500650BCF /* TSSearchView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618295111DBEC19500650BCF /* TSSearchView.xib */; };
+		618295151DBED42F00650BCF /* TSLocationAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 618295141DBED42F00650BCF /* TSLocationAlertView.m */; };
+		618295181DBED79600650BCF /* TSLocationAlertView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 618295171DBED79600650BCF /* TSLocationAlertView.xib */; };
+		61AFE45E1DB7EC7C00BF7A64 /* Constants.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AFE45D1DB7EC7C00BF7A64 /* Constants.m */; };
+		61AFE4611DB7EDAE00BF7A64 /* TSRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AFE4601DB7EDAE00BF7A64 /* TSRequest.m */; };
+		61D2A9131DBD2CF200D798D2 /* TruckStopData.m in Sources */ = {isa = PBXBuildFile; fileRef = 61D2A9121DBD2CF200D798D2 /* TruckStopData.m */; };
+		61E4CBB61DB69AD70072AE1B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4CBB51DB69AD70072AE1B /* main.m */; };
+		61E4CBB91DB69AD70072AE1B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4CBB81DB69AD70072AE1B /* AppDelegate.m */; };
+		61E4CBBC1DB69AD70072AE1B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4CBBB1DB69AD70072AE1B /* ViewController.m */; };
+		61E4CBBF1DB69AD70072AE1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E4CBBD1DB69AD70072AE1B /* Main.storyboard */; };
+		61E4CBC11DB69AD70072AE1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61E4CBC01DB69AD70072AE1B /* Assets.xcassets */; };
+		61E4CBC41DB69AD70072AE1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 61E4CBC21DB69AD70072AE1B /* LaunchScreen.storyboard */; };
+		61E4CBCF1DB69AD90072AE1B /* PegasusTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4CBCE1DB69AD90072AE1B /* PegasusTests.m */; };
+		61E4CBDA1DB69AD90072AE1B /* PegasusUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 61E4CBD91DB69AD90072AE1B /* PegasusUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		61E4CBCB1DB69AD90072AE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E4CBA91DB69AD60072AE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E4CBB01DB69AD70072AE1B;
+			remoteInfo = Pegasus;
+		};
+		61E4CBD61DB69AD90072AE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 61E4CBA91DB69AD60072AE1B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 61E4CBB01DB69AD70072AE1B;
+			remoteInfo = Pegasus;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		61670A721DBF55A000CB70F0 /* TSPointAnnotation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSPointAnnotation.h; path = View/TSPointAnnotation.h; sourceTree = "<group>"; };
+		61670A731DBF55A000CB70F0 /* TSPointAnnotation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSPointAnnotation.m; path = View/TSPointAnnotation.m; sourceTree = "<group>"; };
+		61670A761DBF561700CB70F0 /* TSAnnotationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSAnnotationView.h; path = View/Pin/TSAnnotationView.h; sourceTree = "<group>"; };
+		61670A771DBF561700CB70F0 /* TSAnnotationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSAnnotationView.m; path = View/Pin/TSAnnotationView.m; sourceTree = "<group>"; };
+		617F65321DC0EF910033B025 /* TSCalloutView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TSCalloutView.h; path = View/Pin/TSCalloutView.h; sourceTree = "<group>"; };
+		617F65331DC0EF910033B025 /* TSCalloutView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSCalloutView.m; path = View/Pin/TSCalloutView.m; sourceTree = "<group>"; };
+		617F65351DC0EF9C0033B025 /* TSCalloutView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSCalloutView.xib; sourceTree = "<group>"; };
+		618295041DBEB79100650BCF /* TSMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TSMapView.xib; path = View/TSMapView.xib; sourceTree = "<group>"; };
+		618295071DBEB7CE00650BCF /* TSMapView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSMapView.h; path = View/TSMapView.h; sourceTree = "<group>"; };
+		618295081DBEB7FF00650BCF /* TSMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSMapView.m; path = View/TSMapView.m; sourceTree = "<group>"; };
+		6182950E1DBEC17900650BCF /* TSSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSSearchView.m; path = View/TSSearchView.m; sourceTree = "<group>"; };
+		618295101DBEC18200650BCF /* TSSearchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TSSearchView.h; sourceTree = "<group>"; };
+		618295111DBEC19500650BCF /* TSSearchView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TSSearchView.xib; sourceTree = "<group>"; };
+		618295141DBED42F00650BCF /* TSLocationAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSLocationAlertView.m; path = View/TSLocationAlertView.m; sourceTree = "<group>"; };
+		618295161DBED44000650BCF /* TSLocationAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSLocationAlertView.h; path = View/TSLocationAlertView.h; sourceTree = "<group>"; };
+		618295171DBED79600650BCF /* TSLocationAlertView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TSLocationAlertView.xib; path = View/TSLocationAlertView.xib; sourceTree = "<group>"; };
+		61AFE45D1DB7EC7C00BF7A64 /* Constants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Constants.m; sourceTree = "<group>"; };
+		61AFE45F1DB7EC8600BF7A64 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		61AFE4601DB7EDAE00BF7A64 /* TSRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TSRequest.m; path = Services/TSRequest.m; sourceTree = "<group>"; };
+		61AFE4621DB7EDCE00BF7A64 /* TSRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TSRequest.h; path = Services/TSRequest.h; sourceTree = "<group>"; };
+		61D2A9111DBD2CE200D798D2 /* TruckStopData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TruckStopData.h; path = Model/TruckStopData.h; sourceTree = "<group>"; };
+		61D2A9121DBD2CF200D798D2 /* TruckStopData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TruckStopData.m; path = Model/TruckStopData.m; sourceTree = "<group>"; };
+		61E4CBB11DB69AD70072AE1B /* Pegasus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Pegasus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E4CBB51DB69AD70072AE1B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		61E4CBB71DB69AD70072AE1B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		61E4CBB81DB69AD70072AE1B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		61E4CBBA1DB69AD70072AE1B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		61E4CBBB1DB69AD70072AE1B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		61E4CBBE1DB69AD70072AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		61E4CBC01DB69AD70072AE1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		61E4CBC31DB69AD70072AE1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		61E4CBC51DB69AD70072AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E4CBCA1DB69AD90072AE1B /* PegasusTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E4CBCE1DB69AD90072AE1B /* PegasusTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PegasusTests.m; sourceTree = "<group>"; };
+		61E4CBD01DB69AD90072AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		61E4CBD51DB69AD90072AE1B /* PegasusUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PegasusUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		61E4CBD91DB69AD90072AE1B /* PegasusUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PegasusUITests.m; sourceTree = "<group>"; };
+		61E4CBDB1DB69AD90072AE1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		61E4CBAE1DB69AD70072AE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E4CBC71DB69AD90072AE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E4CBD21DB69AD90072AE1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61670A751DBF55A600CB70F0 /* Pin */ = {
+			isa = PBXGroup;
+			children = (
+				61670A721DBF55A000CB70F0 /* TSPointAnnotation.h */,
+				61670A731DBF55A000CB70F0 /* TSPointAnnotation.m */,
+				61670A761DBF561700CB70F0 /* TSAnnotationView.h */,
+				61670A771DBF561700CB70F0 /* TSAnnotationView.m */,
+				617F65321DC0EF910033B025 /* TSCalloutView.h */,
+				617F65331DC0EF910033B025 /* TSCalloutView.m */,
+				617F65351DC0EF9C0033B025 /* TSCalloutView.xib */,
+			);
+			name = Pin;
+			sourceTree = "<group>";
+		};
+		6182950C1DBEC15E00650BCF /* TSMapView */ = {
+			isa = PBXGroup;
+			children = (
+				618295071DBEB7CE00650BCF /* TSMapView.h */,
+				618295081DBEB7FF00650BCF /* TSMapView.m */,
+				618295041DBEB79100650BCF /* TSMapView.xib */,
+				61670A751DBF55A600CB70F0 /* Pin */,
+			);
+			name = TSMapView;
+			sourceTree = "<group>";
+		};
+		6182950D1DBEC16500650BCF /* TSSearchView */ = {
+			isa = PBXGroup;
+			children = (
+				618295101DBEC18200650BCF /* TSSearchView.h */,
+				6182950E1DBEC17900650BCF /* TSSearchView.m */,
+				618295111DBEC19500650BCF /* TSSearchView.xib */,
+			);
+			name = TSSearchView;
+			sourceTree = "<group>";
+		};
+		618295131DBED41100650BCF /* TSLocationAlert */ = {
+			isa = PBXGroup;
+			children = (
+				618295161DBED44000650BCF /* TSLocationAlertView.h */,
+				618295141DBED42F00650BCF /* TSLocationAlertView.m */,
+				618295171DBED79600650BCF /* TSLocationAlertView.xib */,
+			);
+			name = TSLocationAlert;
+			sourceTree = "<group>";
+		};
+		61E4CBA81DB69AD60072AE1B = {
+			isa = PBXGroup;
+			children = (
+				61E4CBB31DB69AD70072AE1B /* Pegasus */,
+				61E4CBCD1DB69AD90072AE1B /* PegasusTests */,
+				61E4CBD81DB69AD90072AE1B /* PegasusUITests */,
+				61E4CBB21DB69AD70072AE1B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		61E4CBB21DB69AD70072AE1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61E4CBB11DB69AD70072AE1B /* Pegasus.app */,
+				61E4CBCA1DB69AD90072AE1B /* PegasusTests.xctest */,
+				61E4CBD51DB69AD90072AE1B /* PegasusUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		61E4CBB31DB69AD70072AE1B /* Pegasus */ = {
+			isa = PBXGroup;
+			children = (
+				61E4CBEA1DB69AF70072AE1B /* ViewController */,
+				61E4CBE91DB69AF40072AE1B /* View */,
+				61E4CBE81DB69AEE0072AE1B /* Model */,
+				61E4CBE71DB69AE20072AE1B /* Supporting Files */,
+				61E4CBB41DB69AD70072AE1B /* Services */,
+			);
+			path = Pegasus;
+			sourceTree = "<group>";
+		};
+		61E4CBB41DB69AD70072AE1B /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				61AFE4621DB7EDCE00BF7A64 /* TSRequest.h */,
+				61AFE4601DB7EDAE00BF7A64 /* TSRequest.m */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		61E4CBCD1DB69AD90072AE1B /* PegasusTests */ = {
+			isa = PBXGroup;
+			children = (
+				61E4CBCE1DB69AD90072AE1B /* PegasusTests.m */,
+				61E4CBD01DB69AD90072AE1B /* Info.plist */,
+			);
+			path = PegasusTests;
+			sourceTree = "<group>";
+		};
+		61E4CBD81DB69AD90072AE1B /* PegasusUITests */ = {
+			isa = PBXGroup;
+			children = (
+				61E4CBD91DB69AD90072AE1B /* PegasusUITests.m */,
+				61E4CBDB1DB69AD90072AE1B /* Info.plist */,
+			);
+			path = PegasusUITests;
+			sourceTree = "<group>";
+		};
+		61E4CBE71DB69AE20072AE1B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				61E4CBB51DB69AD70072AE1B /* main.m */,
+				61E4CBB71DB69AD70072AE1B /* AppDelegate.h */,
+				61E4CBB81DB69AD70072AE1B /* AppDelegate.m */,
+				61E4CBBD1DB69AD70072AE1B /* Main.storyboard */,
+				61E4CBC01DB69AD70072AE1B /* Assets.xcassets */,
+				61E4CBC21DB69AD70072AE1B /* LaunchScreen.storyboard */,
+				61E4CBC51DB69AD70072AE1B /* Info.plist */,
+				61AFE45F1DB7EC8600BF7A64 /* Constants.h */,
+				61AFE45D1DB7EC7C00BF7A64 /* Constants.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		61E4CBE81DB69AEE0072AE1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				61D2A9111DBD2CE200D798D2 /* TruckStopData.h */,
+				61D2A9121DBD2CF200D798D2 /* TruckStopData.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		61E4CBE91DB69AF40072AE1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				618295131DBED41100650BCF /* TSLocationAlert */,
+				6182950D1DBEC16500650BCF /* TSSearchView */,
+				6182950C1DBEC15E00650BCF /* TSMapView */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		61E4CBEA1DB69AF70072AE1B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				61E4CBBA1DB69AD70072AE1B /* ViewController.h */,
+				61E4CBBB1DB69AD70072AE1B /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		61E4CBB01DB69AD70072AE1B /* Pegasus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E4CBDE1DB69AD90072AE1B /* Build configuration list for PBXNativeTarget "Pegasus" */;
+			buildPhases = (
+				61E4CBAD1DB69AD70072AE1B /* Sources */,
+				61E4CBAE1DB69AD70072AE1B /* Frameworks */,
+				61E4CBAF1DB69AD70072AE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Pegasus;
+			productName = Pegasus;
+			productReference = 61E4CBB11DB69AD70072AE1B /* Pegasus.app */;
+			productType = "com.apple.product-type.application";
+		};
+		61E4CBC91DB69AD90072AE1B /* PegasusTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E4CBE11DB69AD90072AE1B /* Build configuration list for PBXNativeTarget "PegasusTests" */;
+			buildPhases = (
+				61E4CBC61DB69AD90072AE1B /* Sources */,
+				61E4CBC71DB69AD90072AE1B /* Frameworks */,
+				61E4CBC81DB69AD90072AE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E4CBCC1DB69AD90072AE1B /* PBXTargetDependency */,
+			);
+			name = PegasusTests;
+			productName = PegasusTests;
+			productReference = 61E4CBCA1DB69AD90072AE1B /* PegasusTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		61E4CBD41DB69AD90072AE1B /* PegasusUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 61E4CBE41DB69AD90072AE1B /* Build configuration list for PBXNativeTarget "PegasusUITests" */;
+			buildPhases = (
+				61E4CBD11DB69AD90072AE1B /* Sources */,
+				61E4CBD21DB69AD90072AE1B /* Frameworks */,
+				61E4CBD31DB69AD90072AE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				61E4CBD71DB69AD90072AE1B /* PBXTargetDependency */,
+			);
+			name = PegasusUITests;
+			productName = PegasusUITests;
+			productReference = 61E4CBD51DB69AD90072AE1B /* PegasusUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		61E4CBA91DB69AD60072AE1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = TylerHunnefeld;
+				TargetAttributes = {
+					61E4CBB01DB69AD70072AE1B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29G2TRE96S;
+						ProvisioningStyle = Automatic;
+					};
+					61E4CBC91DB69AD90072AE1B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29G2TRE96S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61E4CBB01DB69AD70072AE1B;
+					};
+					61E4CBD41DB69AD90072AE1B = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 29G2TRE96S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 61E4CBB01DB69AD70072AE1B;
+					};
+				};
+			};
+			buildConfigurationList = 61E4CBAC1DB69AD60072AE1B /* Build configuration list for PBXProject "Pegasus" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 61E4CBA81DB69AD60072AE1B;
+			productRefGroup = 61E4CBB21DB69AD70072AE1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				61E4CBB01DB69AD70072AE1B /* Pegasus */,
+				61E4CBC91DB69AD90072AE1B /* PegasusTests */,
+				61E4CBD41DB69AD90072AE1B /* PegasusUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		61E4CBAF1DB69AD70072AE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E4CBC41DB69AD70072AE1B /* LaunchScreen.storyboard in Resources */,
+				618295181DBED79600650BCF /* TSLocationAlertView.xib in Resources */,
+				61E4CBC11DB69AD70072AE1B /* Assets.xcassets in Resources */,
+				617F65361DC0EF9C0033B025 /* TSCalloutView.xib in Resources */,
+				618295051DBEB79100650BCF /* TSMapView.xib in Resources */,
+				618295121DBEC19500650BCF /* TSSearchView.xib in Resources */,
+				61E4CBBF1DB69AD70072AE1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E4CBC81DB69AD90072AE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E4CBD31DB69AD90072AE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		61E4CBAD1DB69AD70072AE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6182950F1DBEC17900650BCF /* TSSearchView.m in Sources */,
+				61AFE4611DB7EDAE00BF7A64 /* TSRequest.m in Sources */,
+				618295151DBED42F00650BCF /* TSLocationAlertView.m in Sources */,
+				61E4CBBC1DB69AD70072AE1B /* ViewController.m in Sources */,
+				617F65341DC0EF910033B025 /* TSCalloutView.m in Sources */,
+				61670A781DBF561700CB70F0 /* TSAnnotationView.m in Sources */,
+				61E4CBB91DB69AD70072AE1B /* AppDelegate.m in Sources */,
+				61D2A9131DBD2CF200D798D2 /* TruckStopData.m in Sources */,
+				61670A741DBF55A000CB70F0 /* TSPointAnnotation.m in Sources */,
+				61E4CBB61DB69AD70072AE1B /* main.m in Sources */,
+				618295091DBEB7FF00650BCF /* TSMapView.m in Sources */,
+				61AFE45E1DB7EC7C00BF7A64 /* Constants.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E4CBC61DB69AD90072AE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E4CBCF1DB69AD90072AE1B /* PegasusTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		61E4CBD11DB69AD90072AE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61E4CBDA1DB69AD90072AE1B /* PegasusUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		61E4CBCC1DB69AD90072AE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E4CBB01DB69AD70072AE1B /* Pegasus */;
+			targetProxy = 61E4CBCB1DB69AD90072AE1B /* PBXContainerItemProxy */;
+		};
+		61E4CBD71DB69AD90072AE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 61E4CBB01DB69AD70072AE1B /* Pegasus */;
+			targetProxy = 61E4CBD61DB69AD90072AE1B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		61E4CBBD1DB69AD70072AE1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E4CBBE1DB69AD70072AE1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		61E4CBC21DB69AD70072AE1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61E4CBC31DB69AD70072AE1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		61E4CBDC1DB69AD90072AE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		61E4CBDD1DB69AD90072AE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		61E4CBDF1DB69AD90072AE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29G2TRE96S;
+				INFOPLIST_FILE = Pegasus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hunnefeld.Pegasus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		61E4CBE01DB69AD90072AE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 29G2TRE96S;
+				INFOPLIST_FILE = Pegasus/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hunnefeld.Pegasus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		61E4CBE21DB69AD90072AE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29G2TRE96S;
+				INFOPLIST_FILE = PegasusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hunnefeld.PegasusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pegasus.app/Pegasus";
+			};
+			name = Debug;
+		};
+		61E4CBE31DB69AD90072AE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 29G2TRE96S;
+				INFOPLIST_FILE = PegasusTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hunnefeld.PegasusTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pegasus.app/Pegasus";
+			};
+			name = Release;
+		};
+		61E4CBE51DB69AD90072AE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 29G2TRE96S;
+				INFOPLIST_FILE = PegasusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hunnefeld.PegasusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pegasus;
+			};
+			name = Debug;
+		};
+		61E4CBE61DB69AD90072AE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 29G2TRE96S;
+				INFOPLIST_FILE = PegasusUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hunnefeld.PegasusUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Pegasus;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		61E4CBAC1DB69AD60072AE1B /* Build configuration list for PBXProject "Pegasus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E4CBDC1DB69AD90072AE1B /* Debug */,
+				61E4CBDD1DB69AD90072AE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E4CBDE1DB69AD90072AE1B /* Build configuration list for PBXNativeTarget "Pegasus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E4CBDF1DB69AD90072AE1B /* Debug */,
+				61E4CBE01DB69AD90072AE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E4CBE11DB69AD90072AE1B /* Build configuration list for PBXNativeTarget "PegasusTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E4CBE21DB69AD90072AE1B /* Debug */,
+				61E4CBE31DB69AD90072AE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		61E4CBE41DB69AD90072AE1B /* Build configuration list for PBXNativeTarget "PegasusUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				61E4CBE51DB69AD90072AE1B /* Debug */,
+				61E4CBE61DB69AD90072AE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 61E4CBA91DB69AD60072AE1B /* Project object */;
+}
